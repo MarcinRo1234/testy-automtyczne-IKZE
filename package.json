@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "cypress": "^13.13.2"
+  },
+  "name": "nowe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mapa": "cypress run --spec cypress/e2e/Mapa.cy.js --browser edge", 
+    "rachunki": "cypress run --spec cypress/e2e/RachunkiMaklerskie.cy.js --browser edge",
+    "ikze": "cypress run --spec cypress/e2e/ikze2.cy.js --browser firefox developer",
+    "ikze3edge": "cypress run --spec cypress/e2e/ikze3.cy.js --browser edge", 
+    "ikze3chrome": "cypress run --spec cypress/e2e/ikze3.cy.js --browser chrome", 
+    "ikze3firefox": "cypress run --spec cypress/e2e/ikze3.cy.js --browser firefox", 
+    "homePage": "cypress run --spec cypress/e2e/HomePageMillenniumBM.cy.js --browser chrome",
+    "serwisyInarzedzia": "cypress run --spec cypress/e2e/SerwisyInarzedzia.cy.js --browser firefox"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
