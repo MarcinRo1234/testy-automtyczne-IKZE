@@ -15,10 +15,13 @@
     "ikze3chrome": "cypress run --spec cypress/e2e/ikze3.cy.js --browser chrome", 
     "ikze3firefox": "cypress run --spec cypress/e2e/ikze3.cy.js --browser firefox", 
     "homePage": "cypress run --spec cypress/e2e/HomePageMillenniumBM.cy.js --browser chrome",
-    "serwisyInarzedzia": "cypress run --spec cypress/e2e/SerwisyInarzedzia.cy.js --browser firefox"
+    "serwisyInarzedzia": "cypress run --spec cypress/e2e/SerwisyInarzedzia.cy.js --browser firefox",
+    "instrumenty": "cypress run --spec cypress/e2e/instrumenty.cy.js --browser edge",
+    "emitenci": "cypress run --spec cypress/e2e/emitenciIakcjonariusze.cy.js --browser chrome"
+
 
   },
-  "author": "",
+  "author": "Marcin Rogulski",
   "license": "ISC",
-  "description": ""
+  "description": "Testy automatyczne Biura Maklerskiego"
 }
